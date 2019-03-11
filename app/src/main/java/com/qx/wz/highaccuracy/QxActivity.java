@@ -111,7 +111,7 @@ public class QxActivity extends AppCompatActivity implements QxLocationListener 
     @Override
     public void onNmeaReceived(String s) {
 
-       tv_result.setText(tv_result.getText() + s);
+       tv_result.setText(s);
         Log.e("tag", "onNmeaReceived:" + s);
     }
 }
